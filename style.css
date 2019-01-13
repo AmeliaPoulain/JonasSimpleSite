@@ -7,8 +7,12 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    font-family: Helvetica;
 }
 
+h1, h3{
+    color: aquamarine
+}
 
 h1 {
     transform:matrix(1.98,-0.28,-0.24,1.14,0,0);
@@ -22,6 +26,18 @@ font-size: 60px;
     margin: 20px;
     padding-right: 0px;
     overflow-x: hidden;
+}
+
+#first2para {
+    color: goldenrod;
+}
+
+#h2Cats {
+    color:red;
+}
+
+#h2Because {
+    color:green;
 }
 
 h2 {
