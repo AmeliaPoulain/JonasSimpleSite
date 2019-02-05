@@ -1,5 +1,11 @@
 /* the below is from http://angrytools.com/css-generator/border/ */
 
+#bodydiv {
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div.CatsTitle {
     transform:matrix(1.98,-0.28,-0.24,1.14,0,0);
     font-size: 60px;
@@ -31,6 +37,7 @@ html,body {
 
 #first2para {
    color: goldenrod;
+    background-color: floralwhite;
 }
 
 #h2Cats {
@@ -46,11 +53,11 @@ h1, h2, h3 {
 }
 
 h2 {
-   font-size: 30px;
+   font-size: 50px;
 }
 
 h3 {
-   font-size: 50px;
+   font-size: 30px;
    margin-top: 0px;
 }
 
@@ -69,4 +76,9 @@ p {
 
 #catlink {
     text-align: center;
+}
+
+#bottomlinks {
+    text-align: center;
+    padding: 10 0 10 0;
 }
