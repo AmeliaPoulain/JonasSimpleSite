@@ -2,9 +2,7 @@
 
 div.CatsTitle {
     transform:matrix(1.98,-0.28,-0.24,1.14,0,0);
--ms-transform:matrix(1.98,-0.28,-0.24,1.14,0,0);
--webkit-transform:matrix(1.98,-0.28,-0.24,1.14,0,0);
-font-size: 60px;
+    font-size: 60px;
    border-width: 0px;
    grid-row-end: 100px;
    padding: 0px;
@@ -43,6 +41,10 @@ html,body {
    color: green;
 }
 
+h1, h2, h3 {
+    text-align: center;
+}
+
 h2 {
    font-size: 30px;
 }
@@ -52,15 +54,19 @@ h3 {
    margin-top: 0px;
 }
 
-div.CatPic img {
+#CatPic {
    height: 300px;
- width: 300px;
- margin-left: auto;
-    margin-right: auto;
-    display: block;
+    width: 300px;
+    display: inline-block;
+
+
 }
 
 p {
    text-align: left;
    text-indent: 20px;
-};
+}
+
+#catlink {
+    text-align: center;
+}
